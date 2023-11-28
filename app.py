@@ -9,7 +9,7 @@ password = os.environ['POSTGRES_PASSWORD']
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Docker! I juset changed it with github. see'
+    return 'Hello, Docker! I juset changed it with github. see version 2'
 
 
 @app.route('/widgets')
